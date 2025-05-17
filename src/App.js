@@ -53,7 +53,7 @@ class App extends React.Component {
         e.preventDefault();
 
         axios
-            .post("http://localhost:8000/wel/", {
+            .post("http://localhost:8000/", {
                 name: this.state.user,
                 detail: this.state.quote,
             })
